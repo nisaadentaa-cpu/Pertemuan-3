@@ -1,0 +1,8 @@
+print("="*10, "Segitiga", "="*10)
+alas = int(input("masukkan alas: "))
+tinggi = int(input("masukkan tinggi: "))
+a = int(input("masukkan sisi a: "))
+b = int(input("masukkan sisi b: "))
+c = int(input("masukkan sisi c: "))
+print(f"hitung luas segitiga", (1/2*alas*tinggi))
+print(f"hitung kel segitiga", (a*b*c))
